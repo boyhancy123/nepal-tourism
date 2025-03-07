@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nepal Tourism - Pashupati, Lumbini & Swayambhu</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin: 20px; }
+        h1 { color: #d9534f; }
+        .container { max-width: 800px; margin: auto; }
+        img { width: 100%; max-width: 600px; border-radius: 10px; margin-top: 10px; }
+        .location { margin-bottom: 30px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Nepal's Top Heritage Tourism Spots</h1>
+        
+        <div class="location">
+            <h2>Pashupatinath Temple</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Pashupatinath_Temple.jpg" alt="Pashupatinath">
+            <p>Pashupatinath is one of the most sacred Hindu temples dedicated to Lord Shiva, located in Kathmandu. It is a UNESCO World Heritage Site and a major pilgrimage destination.</p>
+        </div>
+
+        <div class="location">
+            <h2>Lumbini</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/55/Lumbini_Maya_Devi_Temple.jpg" alt="Lumbini">
+            <p>Lumbini, the birthplace of Lord Buddha, is an important spiritual site. The Maya Devi Temple, monasteries, and Ashokan Pillar are key attractions.</p>
+        </div>
+
+        <div class="location">
+            <h2>Swayambhunath Stupa</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Swayambhunath_Stupa_Kathmandu.jpg" alt="Swayambhunath">
+            <p>Also known as the Monkey Temple, Swayambhunath is an ancient Buddhist stupa offering panoramic views of Kathmandu and a spiritual ambiance.</p>
+        </div>
+    </div>
+</body>
+</html>body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(to right, #ff9966, #ff5e62);
+    color: white;
+    margin: 0;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    color: black;
+    width: 300px;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+button {
+    background: #ff5e62;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #ff9966;
+}
+
+.reference-btn {
+    background: #4CAF50;
+    margin-left: 5px;
+}
+
+.reference-btn:hover {
+    background: #45a049;
+}
+function showMessage(place) {
+    alert("You clicked on " + place + "!");
+}
